@@ -1,0 +1,2 @@
+# Testowanie
+Dziennik testowania
