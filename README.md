@@ -16,7 +16,7 @@ $ pip install selenium
 $ pip install msedge-selenium-tools selenium==3.141 or pip install selenium-tools
 $ pip install assertpy
 ```
-For a setting driver, it needs appriopriate path to driver. For example in commands like: driver = webdriver.Chrome("here put the driver path")
+For a setting driver in testcase, it needs appriopriate path to driver in your hard drive. For example in commands like: driver = webdriver.Chrome("here put the driver path")
 # [Features]
 * Dropdown.py - Testcase for visible elements in https://rejkowicz.pl/blog/lista-rozwijana-html5/ page
 * Geolocation.py - Testcase in which geocoordinates are tested for right values 
