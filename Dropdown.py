@@ -2,7 +2,8 @@ from selenium import webdriver
 import time
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.common.action_chains import ActionChains
-
+class testing_dropdown(self):
+  def test_dropdown(self):
 driver = webdriver.Chrome("C:\TestFiles\chromedriver.exe")
 
 driver.maximize_window()
