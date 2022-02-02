@@ -13,7 +13,7 @@ In testcases are used technologies/modules like below:
 At the beginning, you can install IDE with Python (like Pycharm) and create a virtual environment (venv). Next, you should activate it. It's crucial to install in your IDE presented modules to launch testcases properly:
 ```
 $ pip install selenium
-$ pip install msedge-selenium-tools selenium==3.141 or pip install selenium-tools
+$ pip install msedge-selenium-tools selenium==3.141 or pip install selenium-tools (for using Microsoft Edge Explorer)
 $ pip install assertpy
 ```
 For a setting driver in testcase, it needs appriopriate path to driver in your hard drive. For example in commands like: driver = webdriver.Chrome("here put the driver path")
