@@ -40,18 +40,18 @@ class ThirdTest(unittest.TestCase):
         driver.execute_script("window.scrollTo(0, window.scrollY + 300)")
         time.sleep(3)
         if floating_menu.is_displayed():
-            print ('Element jest na stronie')
+            print ('Element is displayed')
         else:
-            print ('Element nie jest na stronie')
+            print ('Element is not displayed')
     def test07_auth(self):
         driver.get("https://the-internet.herokuapp.com/")
         driver.find_element_by_xpath("//a[normalize-space()='Multiple Windows']").click()
         driver.find_element_by_xpath("//*[@id='content']/div/a").click()
         time.sleep(3)
         if len(driver.window_handles) == 2:
-            print("Tworzy prawidłowo okno")
+            print("Window created")
         else:
-            print("Nie tworzy okna")
+            print("Window not created")
 
 
 class test_right:
