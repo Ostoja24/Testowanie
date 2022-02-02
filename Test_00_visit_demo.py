@@ -33,7 +33,7 @@ class Test_00(unittest.TestCase):
             assert elements[_].text == list_of_elements_names[_]
 
 
-    def test_03_click_on_elements_widget(self):
+    def test_02_click_on_elements_widget(self):
         hp = HomePage()
         hp.click_on_elements_widget(driver)
         input()
